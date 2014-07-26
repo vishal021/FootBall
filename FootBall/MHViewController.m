@@ -8,6 +8,8 @@
 
 #import "MHViewController.h"
 #import "MHMyScene.h"
+#import "Front.h"
+
 
 @implementation MHViewController
 
@@ -16,16 +18,16 @@
     [super viewDidLoad];
 
     // Configure the view.
-    SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
+    SKView* gameView= (SKView *)self.view;
+    gameView.showsFPS = YES;
+    gameView.showsNodeCount = YES;
+    gameView.showsDrawCount=YES;
     
     // Create and configure the scene.
-    SKScene * scene = [MHMyScene sceneWithSize:skView.bounds.size];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
-    
-    // Present the scene.
-    [skView presentScene:scene];
+    SKScene* front = [Front sceneWithSize:gameView.bounds.size];
+    front.scaleMode = SKSceneScaleModeAspectFill;
+    [gameView presentScene:front];
+
 }
 
 - (BOOL)shouldAutorotate

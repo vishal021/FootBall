@@ -17,13 +17,16 @@
 		89AA884318E51A1E00ED6886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AA884118E51A1E00ED6886 /* Main.storyboard */; };
 		89AA884618E51A1E00ED6886 /* MHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AA884518E51A1E00ED6886 /* MHViewController.m */; };
 		89AA884918E51A1E00ED6886 /* MHMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AA884818E51A1E00ED6886 /* MHMyScene.m */; };
-		89AA884B18E51A1E00ED6886 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AA884A18E51A1E00ED6886 /* Spaceship.png */; };
 		89AA884D18E51A1F00ED6886 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89AA884C18E51A1F00ED6886 /* Images.xcassets */; };
 		89AA885418E51A2000ED6886 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AA885318E51A2000ED6886 /* XCTest.framework */; };
 		89AA885518E51A2100ED6886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AA882D18E51A1D00ED6886 /* Foundation.framework */; };
 		89AA885618E51A2100ED6886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AA883118E51A1D00ED6886 /* UIKit.framework */; };
 		89AA885E18E51A2100ED6886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89AA885C18E51A2100ED6886 /* InfoPlist.strings */; };
 		89AA886018E51A2100ED6886 /* FootBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AA885F18E51A2100ED6886 /* FootBallTests.m */; };
+		89AA887418E5202300ED6886 /* Front.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AA887318E5202300ED6886 /* Front.m */; };
+		89AA887718E5229400ED6886 /* MHGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AA887618E5229400ED6886 /* MHGameOverScene.m */; };
+		89AA887918E5293B00ED6886 /* net.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AA887818E5293B00ED6886 /* net.png */; };
+		89AA887B18E5297600ED6886 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AA887A18E5297600ED6886 /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,13 +56,18 @@
 		89AA884518E51A1E00ED6886 /* MHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHViewController.m; sourceTree = "<group>"; };
 		89AA884718E51A1E00ED6886 /* MHMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHMyScene.h; sourceTree = "<group>"; };
 		89AA884818E51A1E00ED6886 /* MHMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHMyScene.m; sourceTree = "<group>"; };
-		89AA884A18E51A1E00ED6886 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		89AA884C18E51A1F00ED6886 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		89AA885218E51A2000ED6886 /* FootBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89AA885318E51A2000ED6886 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		89AA885B18E51A2100ED6886 /* FootBallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FootBallTests-Info.plist"; sourceTree = "<group>"; };
 		89AA885D18E51A2100ED6886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89AA885F18E51A2100ED6886 /* FootBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootBallTests.m; sourceTree = "<group>"; };
+		89AA887218E5200E00ED6886 /* Front.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Front.h; path = ../../../Downloads/Front.h; sourceTree = "<group>"; };
+		89AA887318E5202300ED6886 /* Front.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Front.m; path = ../../../Downloads/Front.m; sourceTree = "<group>"; };
+		89AA887518E5229400ED6886 /* MHGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHGameOverScene.h; sourceTree = "<group>"; };
+		89AA887618E5229400ED6886 /* MHGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHGameOverScene.m; sourceTree = "<group>"; };
+		89AA887818E5293B00ED6886 /* net.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = net.png; path = ../../../Downloads/net.png; sourceTree = "<group>"; };
+		89AA887A18E5297600ED6886 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = ../../../Downloads/ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,8 @@
 		89AA882118E51A1C00ED6886 = {
 			isa = PBXGroup;
 			children = (
+				89AA887518E5229400ED6886 /* MHGameOverScene.h */,
+				89AA887618E5229400ED6886 /* MHGameOverScene.m */,
 				89AA883518E51A1D00ED6886 /* FootBall */,
 				89AA885918E51A2100ED6886 /* FootBallTests */,
 				89AA882C18E51A1D00ED6886 /* Frameworks */,
@@ -121,6 +131,8 @@
 		89AA883518E51A1D00ED6886 /* FootBall */ = {
 			isa = PBXGroup;
 			children = (
+				89AA887218E5200E00ED6886 /* Front.h */,
+				89AA887318E5202300ED6886 /* Front.m */,
 				89AA883E18E51A1E00ED6886 /* MHAppDelegate.h */,
 				89AA883F18E51A1E00ED6886 /* MHAppDelegate.m */,
 				89AA884118E51A1E00ED6886 /* Main.storyboard */,
@@ -128,8 +140,9 @@
 				89AA884518E51A1E00ED6886 /* MHViewController.m */,
 				89AA884718E51A1E00ED6886 /* MHMyScene.h */,
 				89AA884818E51A1E00ED6886 /* MHMyScene.m */,
-				89AA884A18E51A1E00ED6886 /* Spaceship.png */,
 				89AA884C18E51A1F00ED6886 /* Images.xcassets */,
+				89AA887A18E5297600ED6886 /* ball.png */,
+				89AA887818E5293B00ED6886 /* net.png */,
 				89AA883618E51A1D00ED6886 /* Supporting Files */,
 			);
 			path = FootBall;
@@ -243,7 +256,8 @@
 			files = (
 				89AA883A18E51A1D00ED6886 /* InfoPlist.strings in Resources */,
 				89AA884D18E51A1F00ED6886 /* Images.xcassets in Resources */,
-				89AA884B18E51A1E00ED6886 /* Spaceship.png in Resources */,
+				89AA887B18E5297600ED6886 /* ball.png in Resources */,
+				89AA887918E5293B00ED6886 /* net.png in Resources */,
 				89AA884318E51A1E00ED6886 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89AA883C18E51A1E00ED6886 /* main.m in Sources */,
+				89AA887418E5202300ED6886 /* Front.m in Sources */,
 				89AA884618E51A1E00ED6886 /* MHViewController.m in Sources */,
+				89AA887718E5229400ED6886 /* MHGameOverScene.m in Sources */,
 				89AA884018E51A1E00ED6886 /* MHAppDelegate.m in Sources */,
 				89AA884918E51A1E00ED6886 /* MHMyScene.m in Sources */,
 			);
